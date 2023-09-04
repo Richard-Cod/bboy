@@ -1,8 +1,7 @@
 from scrapy.selector import Selector
 import os
-
 # J'ai mis le contenu html dans un fichier nommé file.html 
-# De ton coté tu n'as pas besoin de ça vu que la requete passe chez toi 🙃
+# De ton coté tu n'as pas besoin de ça vu que la requete passe chez toi 
 file_name = 'file.html'
 file_path = os.path.join(os.path.dirname(__file__), file_name)
 
